@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClientController {
 
-    @Value("${config.info}")
+    @Value("${com.atguigu.springcloud.config.info}")
     private String configInfo;
 
     @GetMapping("/config/info")

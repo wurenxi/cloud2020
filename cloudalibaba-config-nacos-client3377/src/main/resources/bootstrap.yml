@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: nacos-config-client
+    name: nacos-com.atguigu.springcloud.config-client
   cloud:
     nacos:
       discovery:
@@ -15,5 +15,5 @@ spring:
         group: TEST_GROUP
 #        group: DEV_GROUP
 
-# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
-# nacos-config-client-dev.yml
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.com.atguigu.springcloud.config.file-extension}
+# nacos-com.atguigu.springcloud.config-client-dev.yml
